@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>Lily's Beauty Salon</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="../index.html">
+            Lily's Beauty Salon
+        </a>
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+
+    <div class="page-container">
+
+        <aside id="side-menu">
+            <a href="../index.html">Home</a>
+            <a href="evenimente.html">Evenimente</a>
+            <a href="contacte.html">contacte</a>
+        </aside>
+
+        <main>
+            <h2 class="title">Contacte</h2>
+
+            <div class="row">
+                <div class="col-50">
+                    <h3>Contactează-ne dacă:</h3>
+
+                    <ul class="contact-list">
+                        <li>Dorești un machiaj frumos </li>
+                        <li>Dorești o frezură incredibilă</li>
+                        <li>Cauți unde să-ți prelungesti ungiile</li>
+                        <li>Ai sugestii/propuneri</li>
+                    </ul>
+                </div>
+
+                <div class="col-50">
+                    <h3>Date de contact:</h3>
+
+                    <ul class="contact-list">
+                        <li><b>Adresa: </b>Satul Drăsliceni str. Tamara Ciobanu</li>
+                        <li><b>Telefon:</b> 068 355 552</li>
+                        <li><b>Ore de lucru:</b> 8:00-20:00</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d5425.622799070006!2d28.7808071!3d47.1615481!3m2!1i1024!2i768!4f13.1!2m1!1zRHJhc2xpY2VuaSAtIFJhdHVzLCDQlNGA0LDRgdC70LjRh9C10L3Riw!5e0!3m2!1sro!2s!4v1708712575092!5m2!1sro!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="col-50">
+                    <div class="contact-form">
+                        <form>
+                            <h3 class="centered">Lasă un mesaj</h3>
+                            <input type="text" placeholder="Nume" required />
+                            <input type="email" placeholder="Email" required />
+                            <textarea rows="3" placeholder="Mesaj" required></textarea>
+                            <input type="submit" value="Transmite" />
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
